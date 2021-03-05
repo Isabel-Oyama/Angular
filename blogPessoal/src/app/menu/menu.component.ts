@@ -2,6 +2,7 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.prod';
+import { AuthService } from '../service/auth.service';
 
 @Component({
   selector: 'app-menu',
@@ -17,7 +18,8 @@ export class MenuComponent implements OnInit {
 
 
   constructor(
-    private router: Router
+    private router: Router,
+    public auth: AuthService
   ) { }
 
   ngOnInit(): void {
