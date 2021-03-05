@@ -1,0 +1,10 @@
+#img-bg{
+    background-image: url('https://st.depositphotos.com/1261297/1914/i/600/depositphotos_19141015-stock-photo-spring-blossom-flowers.jpg') ;
+
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
